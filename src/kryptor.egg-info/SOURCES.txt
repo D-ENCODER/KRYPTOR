@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+src/kryptor/__init__.py
+src/kryptor/main.py
+src/kryptor.egg-info/PKG-INFO
+src/kryptor.egg-info/SOURCES.txt
+src/kryptor.egg-info/dependency_links.txt
+src/kryptor.egg-info/top_level.txt
