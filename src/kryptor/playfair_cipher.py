@@ -11,10 +11,11 @@ class PlayfairCipher:
     def encrypt(self): to encrypt the text in playfair cipher\n
     def decrypt(self): to decrypt the text in playfair cipher
     """
-    _plain_text = ''
-    _cipher_text = ''
-    _key = ''
-    _key_matrix = ''
+    def __init__(self):
+        self._plain_text = ''
+        self._cipher_text = ''
+        self._key = ''
+        self._key_matrix = ''
 
     def _key_generation(self):
         main = string.ascii_lowercase.replace('j', '.')

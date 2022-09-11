@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: kryptor
-Version: 0.0.3
+Version: 0.0.5
 Summary: Encrypt and Decrypt strings with famous cryptography techniques
 Author-email: "Het Joshi (DENCODER)" <hetcjoshi1684@gmail.com>
 License:                     GNU GENERAL PUBLIC LICENSE
