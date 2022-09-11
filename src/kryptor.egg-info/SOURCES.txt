@@ -3,6 +3,7 @@ README.md
 pyproject.toml
 src/kryptor/__init__.py
 src/kryptor/caesar_cipher.py
+src/kryptor/playfair_cipher.py
 src/kryptor.egg-info/PKG-INFO
 src/kryptor.egg-info/SOURCES.txt
 src/kryptor.egg-info/dependency_links.txt

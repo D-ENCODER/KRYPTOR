@@ -13,7 +13,7 @@ class CaesarCipher:
     def encrypt(text, key):
         """
         :param text: text to encrypt in caesar cipher (str)
-        :param key: key to encrypt the text (int)
+        :param key: _key to encrypt the text (int)
         :return: encrypted text (str)
         """
         cipher_text = ""
@@ -30,7 +30,7 @@ class CaesarCipher:
     def decrypt(cipher_text, key):
         """
         :param cipher_text: cipher text to decrypt (str)
-        :param key: key to decrypt the text (int)
+        :param key: _key to decrypt the text (int)
         :return: decrypted text (str)
         """
         plain_text = ""
