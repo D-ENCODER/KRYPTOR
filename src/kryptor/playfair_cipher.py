@@ -8,8 +8,8 @@ import string
 
 class PlayfairCipher:
     """
-    def encrypt(self): to encrypt the text in playfair cipher\n
-    def decrypt(self): to decrypt the text in playfair cipher
+    def encrypt(self, plain_text, key): to encrypt the text in Playfair Cipher\n
+    def decrypt(self, cipher_text, key): to decrypt the text in Playfair Cipher
     """
     def __init__(self):
         self._plain_text = ''

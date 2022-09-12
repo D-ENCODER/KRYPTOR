@@ -6,8 +6,8 @@
 
 class CaesarCipher:
     """
-    def encrypt(self): to encrypt the text in caesar cipher\n
-    def decrypt(self): to decrypt the text in caesar cipher
+    def encrypt(self, plain_text, key): to encrypt the text in Caesar Cipher\n
+    def decrypt(self, cipher_text, key): to decrypt the text in Caesar Cipher
     """
 
     def __init__(self):

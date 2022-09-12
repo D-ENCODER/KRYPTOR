@@ -5,6 +5,10 @@
 # Version : 1.0.0
 
 class Morse:
+    """
+        def encrypt(self, plain_text): to encrypt the text in Morse Code\n
+        def decrypt(self, encrypted_text): to decrypt the text in Morse Code
+    """
     def __init__(self):
         self._morse = {
             'A': '.-', 'B': '-...', 'C': '-.-.', 'D': '-..', 'E': '.',
