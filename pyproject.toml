@@ -3,11 +3,11 @@ requires = ["setuptools>=61.0"]
 build-backend = "setuptools.build_meta"
 [project]
 name = "kryptor"
-version = "0.0.5"
+version = "0.1.0"
 authors = [
   { name="Het Joshi (DENCODER)", email="hetcjoshi1684@gmail.com" },
 ]
-description = "Encrypt and Decrypt strings with famous cryptography techniques"
+description = "Encrypt and Decrypt data with famous cryptography techniques"
 readme = "README.md"
 license = { file="LICENSE" }
 requires-python = ">=3.7"

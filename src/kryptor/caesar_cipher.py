@@ -23,6 +23,7 @@ class CaesarCipher:
         """
         self._plain_text = plain_text
         self._key = key
+        self._cipher_text = ''
         for char in plain_text:
             if char == " ":
                 self._cipher_text += char
@@ -40,6 +41,7 @@ class CaesarCipher:
         """
         self._cipher_text = cipher_text
         self._key = key
+        self._plain_text = ''
         for char in cipher_text:
             if char == " ":
                 self._plain_text += char
@@ -48,3 +50,4 @@ class CaesarCipher:
             else:
                 self._plain_text += chr((ord(char) - key - 97) % 26 + 97)
         return self._plain_text
+

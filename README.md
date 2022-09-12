@@ -42,4 +42,55 @@ The first step of encrypting the message "hide the gold in the tree stump" is to
 12. The pair TU is in a row, replace it with UV
 13. The pair MP forms a rectangle, replace it with IF
 
-Thus the message "hide the gold in the tree stump" becomes "BM OD ZB XD NA BE KU DM UI XM MO UV IF", which may be restructured as "BMODZ BXDNA BEKUD MUIXM MOUVI F" for ease of reading the cipher text. 
+Thus, the message "hide the gold in the tree stump" becomes "BM OD ZB XD NA BE KU DM UI XM MO UV IF", which may be restructured as "BMODZ BXDNA BEKUD MUIXM MOUVI F" for ease of reading the cipher text. 
+
+### MORSE CODE
+
+---
+
+Morse code is a method used in telecommunication to encode text characters as standardized sequences of two different signal durations, called dots and dashes, or dits and dahs. Morse code is named after Samuel Morse, one of the inventors of the telegraph. 
+```
+A = .- 
+B = -... 
+C =  -.-. 
+D =  -.. 
+E = .
+F = ..-. 
+G =  --.
+H =  ....
+I =  ..
+J =  .---
+K =  -.-
+L =  .-..
+M =  --
+N =  -.
+O =  ---
+P =  .--.
+Q =  --.-
+R =  .-.
+S =  ...
+T =  -
+U =  ..-
+V =  ...-
+W =  .--
+X =  -..-
+Y =  -.--
+Z =  --..
+1 =  .----
+2 =  ..---
+3 =  ...--
+4 =  ....-
+5 =  .....
+6 =  -....
+7 =  --...
+8 =  ---..
+9 =  ----.
+0 =  -----
+, = --..--
+. = .-.-.-
+? = ..--..
+/ = -..-.
+- = -....-
+( = -.--.
+) = -.--.-
+```

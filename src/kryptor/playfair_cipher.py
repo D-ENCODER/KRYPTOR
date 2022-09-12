@@ -48,6 +48,7 @@ class PlayfairCipher:
         """
         self._plain_text = plain_text
         self._key = key
+        self._cipher_text = ''
         plain_text_pairs = []
         cipher_text_pairs = []
         self._key_generation()
@@ -113,6 +114,7 @@ class PlayfairCipher:
         """
         self._cipher_text = cipher_text.lower()
         self._key = key
+        self._plain_text = ''
         plain_text_pairs = []
         cipher_text_pairs = []
         self._key_generation()

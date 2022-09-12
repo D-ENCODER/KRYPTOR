@@ -27,6 +27,7 @@ class Morse:
         :return: Encrypted text (str)
         """
         self._plain_text = plain_text.upper()
+        self._encrypted_text = ''
         for letter in self._plain_text:
             if letter != ' ':
                 self._encrypted_text += self._morse[letter] + ' '
@@ -41,6 +42,7 @@ class Morse:
         """
         self._encrypted_text = encrypted_text
         self._encrypted_text += ' '
+        self._plain_text = ''
         temp = ''
         i = 0
         for letter in self._encrypted_text:
