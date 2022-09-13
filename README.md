@@ -1,4 +1,5 @@
 # KRYPTOR
+[![GitHub issues](https://img.shields.io/github/issues/D-ENCODER/KRYPTOR)](https://github.com/D-ENCODER/KRYPTOR/issues)  [![GitHub forks](https://img.shields.io/github/forks/D-ENCODER/KRYPTOR)](https://github.com/D-ENCODER/KRYPTOR/network)  [![GitHub stars](https://img.shields.io/github/stars/D-ENCODER/KRYPTOR)](https://github.com/D-ENCODER/KRYPTOR/stargazers) [![GitHub license](https://img.shields.io/github/license/D-ENCODER/KRYPTOR)](https://github.com/D-ENCODER/KRYPTOR/blob/master/LICENSE)  [![Twitter](https://img.shields.io/twitter/url?style=social&url=https%3A%2F%2Ftwitter.com%2FHetjoshi1684)](https://twitter.com/intent/tweet?text=Wow:&url=https%3A%2F%2Fgithub.com%2FD-ENCODER%2FKRYPTOR)
 ### CAESAR CIPHER
 
 ---
