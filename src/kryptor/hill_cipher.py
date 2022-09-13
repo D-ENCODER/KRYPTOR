@@ -147,7 +147,6 @@ class HillCipher:
 
     def encrypt(self, plain_text, key):
         """
-            This function will encrypt the plain text to cipher text
         :param plain_text: plain text (string)
         :param key: key (list)
         :return: cipher text (string)
@@ -170,7 +169,6 @@ class HillCipher:
 
     def decrypt(self, cipher_text, key):
         """
-            This function will decrypt the cipher text to plain text
         :param cipher_text: cipher text (string)
         :param key: key (list)
         :return: plain text (string)

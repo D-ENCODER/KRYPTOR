@@ -15,7 +15,7 @@ class CaesarCipher:
         self._key = 0
         self._cipher_text = ''
 
-    def encrypt(self, plain_text, key):
+    def encrypt(self, plain_text, key=3):
         """
         :param plain_text: text to encrypt in caesar cipher (str)
         :param key: _key to encrypt the text (int)
@@ -33,7 +33,7 @@ class CaesarCipher:
                 self._cipher_text += chr((ord(char) + key - 97) % 26 + 97)
         return self._cipher_text
 
-    def decrypt(self, cipher_text, key):
+    def decrypt(self, cipher_text, key=3):
         """
         :param cipher_text: cipher text to decrypt (str)
         :param key: _key to decrypt the text (int)
