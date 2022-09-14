@@ -51,16 +51,16 @@ print(obj.encrypt('iamdencoder', [[3, 3], [2, 5]])) # returns yqtnzvwwvawd
 print(obj.decrypt('yqtnzvwwvawd', [[3, 3], [2, 5]])) # returns iamdencoderz
 ```
 
-### STENGANOGRAPHY
+### STEGANOGRAPHY
 
 ---
 
 1. **Hiding data behind image**
 
 ```python
-from kryptor.img_stenganography import ImgStenganography
+from kryptor.img_steganography import ImgSteganography
 
-obj = ImgStenganography()
+obj = ImgSteganography()
 obj.encrypt('I am Dencoder', 'image.png', 'output.png') # returns output.png
 obj.decrypt('output.png') # returns I am Dencoder
 ```
@@ -68,9 +68,9 @@ obj.decrypt('output.png') # returns I am Dencoder
 2. **Hiding data behind audio**
 
 ```python
-from kryptor.audio_stenganography import AudioStenganography
+from kryptor.audio_steganography import AudioSteganography
 
-obj = AudioStenganography()
+obj = AudioSteganography()
 obj.encrypt('I am Dencoder', 'audio.wav', 'output.wav') # returns output.wav
 obj.decrypt('output.wav') # returns I am Dencoder
 ```

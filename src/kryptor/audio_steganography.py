@@ -6,7 +6,7 @@
 import wave
 
 
-class AudioStenganography:
+class AudioSteganography:
     """
     def encrypt(self, data, audio_path, encrypted_audio_path='song_embedded.wav'):
     def decrypt(self, audio_path):

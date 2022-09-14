@@ -7,7 +7,7 @@ import cv2
 import math
 
 
-class ImgStenganography:
+class ImgSteganography:
     """
     def encrypt(self, data, image_path): to encrypt the data in image\n
     def decrypt(self, img_path): to decrypt the data from image
