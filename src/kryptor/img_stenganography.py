@@ -19,7 +19,7 @@ class ImgStenganography:
         """
         :param data: data to be encrypted
         :param image_path: path of image (str)
-        :param new_img_path: path of new image (str)
+        :param new_img_path: path of new image (str) (optional)
         :return: None (image is saved in the same directory)
         """
         self._message = data

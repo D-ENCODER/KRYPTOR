@@ -4,6 +4,7 @@ pyproject.toml
 src/kryptor/__init__.py
 src/kryptor/caesar_cipher.py
 src/kryptor/hill_cipher.py
+src/kryptor/img_stenganography.py
 src/kryptor/morse.py
 src/kryptor/playfair_cipher.py
 src/kryptor.egg-info/PKG-INFO
