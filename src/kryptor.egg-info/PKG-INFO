@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: kryptor
-Version: 0.1.5
+Version: 0.2.0
 Summary: Encrypt and Decrypt data with famous cryptography techniques
 Author-email: "Het Joshi (DENCODER)" <hetcjoshi1684@gmail.com>
 License:                     GNU GENERAL PUBLIC LICENSE
@@ -688,7 +688,7 @@ Description-Content-Type: text/markdown
 License-File: LICENSE
 
 # KRYPTOR
-[![GitHub issues](https://img.shields.io/github/issues/D-ENCODER/KRYPTOR)](https://github.com/D-ENCODER/KRYPTOR/issues)  [![GitHub forks](https://img.shields.io/github/forks/D-ENCODER/KRYPTOR)](https://github.com/D-ENCODER/KRYPTOR/network)  [![GitHub stars](https://img.shields.io/github/stars/D-ENCODER/KRYPTOR)](https://github.com/D-ENCODER/KRYPTOR/stargazers) [![GitHub license](https://img.shields.io/github/license/D-ENCODER/KRYPTOR)](https://github.com/D-ENCODER/KRYPTOR/blob/master/LICENSE)  [![Twitter](https://img.shields.io/twitter/url?style=social&url=https%3A%2F%2Ftwitter.com%2FHetjoshi1684)](https://twitter.com/intent/tweet?text=Wow:&url=https%3A%2F%2Fgithub.com%2FD-ENCODER%2FKRYPTOR)
+[![GitHub issues](https://img.shields.io/github/issues/D-ENCODER/KRYPTOR)](https://github.com/D-ENCODER/KRYPTOR/issues)  [![GitHub forks](https://img.shields.io/github/forks/D-ENCODER/KRYPTOR)](https://github.com/D-ENCODER/KRYPTOR/network)  [![GitHub stars](https://img.shields.io/github/stars/D-ENCODER/KRYPTOR)](https://github.com/D-ENCODER/KRYPTOR/stargazers) [![GitHub license](https://img.shields.io/github/license/D-ENCODER/KRYPTOR)](https://github.com/D-ENCODER/KRYPTOR/blob/master/LICENSE)  [![Twitter](https://img.shields.io/twitter/url?style=social&url=https%3A%2F%2Ftwitter.com%2FHetjoshi1684)](https://twitter.com/intent/tweet?text=Wow:&url=https%3A%2F%2Fgithub.com%2FD-ENCODER%2FKRYPTOR)  [![Maintainability](https://api.codeclimate.com/v1/badges/54258993e9092f59bf6a/maintainability)](https://codeclimate.com/github/D-ENCODER/KRYPTOR/maintainability)  ![GitHub release (latest by date)](https://img.shields.io/github/v/release/D-ENCODER/KRYPTOR?display_name=tag&style=plastic)
 ### CAESAR CIPHER
 
 ---
@@ -773,4 +773,15 @@ from kryptor.vigenere_cipher import VigenereCipher
 obj = VigenereCipher()
 print(obj.encrypt('I am Dencoder', 'key')) # returns s ek nilmsbov
 print(obj.decrypt('s ek nilmsbov', 'key')) # returns i am dencoder
+```
+### RAIL FENCE CIPHER
+
+---
+
+```python
+from kryptor.rail_fence import RailFence
+
+obj = RailFence()
+print(obj.encrypt('I am Dencoder', 3)) # returns iedadnoemcr
+print(obj.decrypt('iedadnoemcr', 3)) # returns iamdencoder
 ```
