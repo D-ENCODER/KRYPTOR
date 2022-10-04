@@ -85,3 +85,14 @@ obj = VigenereCipher()
 print(obj.encrypt('I am Dencoder', 'key')) # returns s ek nilmsbov
 print(obj.decrypt('s ek nilmsbov', 'key')) # returns i am dencoder
 ```
+### RAIL FENCE CIPHER
+
+---
+
+```python
+from kryptor.rail_fence import RailFence
+
+obj = RailFence()
+print(obj.encrypt('I am Dencoder', 3)) # returns iedadnoemcr
+print(obj.decrypt('iedadnoemcr', 3)) # returns iamdencoder
+```
