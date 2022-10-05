@@ -157,7 +157,7 @@ class HillCipher:
         if self._isInvertible(self._key, len(self._key)):
             pass
         else:
-            print("NOTE:- THE KEY IS NOT INVERTIBLE (CAN'T BE DECRYPTED)")
+            raise Exception("Key is not invertible")
         message = self._message_matrix(self._plain_text)
         final_message = ''
         for i in message:
@@ -201,4 +201,4 @@ class HillCipher:
                         plain_text += k
             return plain_text
         else:
-            print("NOTE:- THE KEY IS NOT INVERTIBLE (CAN'T BE DECRYPTED)")
+            raise Exception("Key is not invertible")

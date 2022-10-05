@@ -9,6 +9,7 @@ src/kryptor/img_steganography.py
 src/kryptor/morse.py
 src/kryptor/playfair_cipher.py
 src/kryptor/rail_fence.py
+src/kryptor/vernam_cipher.py
 src/kryptor/vigenere_cipher.py
 src/kryptor.egg-info/PKG-INFO
 src/kryptor.egg-info/SOURCES.txt
