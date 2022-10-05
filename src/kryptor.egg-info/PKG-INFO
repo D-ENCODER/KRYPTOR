@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: kryptor
-Version: 0.2.0
+Version: 0.3.0
 Summary: Encrypt and Decrypt data with famous cryptography techniques
 Author-email: "Het Joshi (DENCODER)" <hetcjoshi1684@gmail.com>
 License:                     GNU GENERAL PUBLIC LICENSE
@@ -784,4 +784,15 @@ from kryptor.rail_fence import RailFence
 obj = RailFence()
 print(obj.encrypt('I am Dencoder', 3)) # returns iedadnoemcr
 print(obj.decrypt('iedadnoemcr', 3)) # returns iamdencoder
+```
+### VERNAAM CIPHER
+
+---
+
+```python
+from kryptor.vernam_cipher import VernamCipher
+
+obj = VernamCipher()
+print(obj.encrypt("I am Dencoder", "Python Coder")) # returns xyfksaecgii
+print(obj.decrypt("xyfksaecgii", "Python Coder")) # returns iamdencoder
 ```

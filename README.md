@@ -96,3 +96,14 @@ obj = RailFence()
 print(obj.encrypt('I am Dencoder', 3)) # returns iedadnoemcr
 print(obj.decrypt('iedadnoemcr', 3)) # returns iamdencoder
 ```
+### VERNAAM CIPHER
+
+---
+
+```python
+from kryptor.vernam_cipher import VernamCipher
+
+obj = VernamCipher()
+print(obj.encrypt("I am Dencoder", "Python Coder")) # returns xyfksaecgii
+print(obj.decrypt("xyfksaecgii", "Python Coder")) # returns iamdencoder
+```
