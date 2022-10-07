@@ -107,7 +107,7 @@ obj = VernamCipher()
 print(obj.encrypt("I am Dencoder", "Python Coder")) # returns xyfksaecgii
 print(obj.decrypt("xyfksaecgii", "Python Coder")) # returns iamdencoder
 ```
-# BLOWFISH CIPHER
+### BLOWFISH CIPHER
 
 ---
 
