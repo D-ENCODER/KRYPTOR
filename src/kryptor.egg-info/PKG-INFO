@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: kryptor
-Version: 0.4.0
+Version: 0.5.0
 Summary: Encrypt and Decrypt data with famous cryptography techniques
 Author-email: "Het Joshi (DENCODER)" <hetcjoshi1684@gmail.com>
 License:                     GNU GENERAL PUBLIC LICENSE
@@ -796,7 +796,7 @@ obj = VernamCipher()
 print(obj.encrypt("I am Dencoder", "Python Coder")) # returns xyfksaecgii
 print(obj.decrypt("xyfksaecgii", "Python Coder")) # returns iamdencoder
 ```
-# BLOWFISH CIPHER
+### BLOWFISH CIPHER
 
 ---
 
@@ -806,4 +806,15 @@ from kryptor.blowfish_cipher import BlowfishCipher
 obj = BlowfishCipher()
 print(obj.encrypt(1684)) # returns 8301200985422371632
 print(obj.decrypt(8301200985422371632)) # returns 1684
+```
+### POLYBIUS CIPHER 
+
+---
+
+```python
+from kryptor.polybius_cipher import PolybiusCipher
+
+obj = PolybiusCipher()
+print(obj.encrypt("I am Dencoder")) # returns 24 1132 1415331334141542
+print(obj.decrypt("24 1132 1415331334141542")) # returns i am dencoder
 ```

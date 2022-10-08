@@ -118,3 +118,14 @@ obj = BlowfishCipher()
 print(obj.encrypt(1684)) # returns 8301200985422371632
 print(obj.decrypt(8301200985422371632)) # returns 1684
 ```
+### POLYBIUS CIPHER 
+
+---
+
+```python
+from kryptor.polybius_cipher import PolybiusCipher
+
+obj = PolybiusCipher()
+print(obj.encrypt("I am Dencoder")) # returns 24 1132 1415331334141542
+print(obj.decrypt("24 1132 1415331334141542")) # returns i am dencoder
+```
